@@ -1,5 +1,5 @@
 # kiosk-script
-Hostname: NC-HAL1 / NC-HAL2
+Standardostname: NC-LOCATION1
 
 # To-Do :
 - HDMI (cec) script to turn screen on or off at certain times.
@@ -8,3 +8,4 @@ Hostname: NC-HAL1 / NC-HAL2
 - Dual screen 
 - Auto reboot if chromium crashes
 - Installation script
+- Custom background or black screen when booting
