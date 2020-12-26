@@ -12,12 +12,11 @@ Standard hostname: NC-LOCATION1
 
 # Installation :
 - get github repo
-- Set sceen resolution to 1920x1080
-- Set hostname
-- Set networkconf
-- gsettings get org.gnome.desktop.background picture-uri background.jpg
 - sudo apt-get update && sudo apt-get upgrade -Y
-- sudo apt-get install -y chromium-browser unclutter xdotool cec-utils openssh-server
+- Set sceen resolution to 1920x1080 and rotation
+- gsettings get org.gnome.desktop.background picture-uri background.jpg
+- sudo crontab /home/nc/crontab.example
+- sudo apt-get install -y chromium-browser unclutter xdotool cec-utils openssh-server htop
 - sudo chmod +x nc.sh
 - sudo mkdir /home/nc/.config/autostart && sudo nano /home/nc/.config/autostart/nc.desktop
 ```
