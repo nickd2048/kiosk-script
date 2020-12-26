@@ -16,7 +16,7 @@ Standard hostname: NC-LOCATION1
 - Set networkconf
 - Set background
 - sudo apt-get update && sudo apt-get upgrade -Y
-- sudo apt-get install -y chromium-browser unclutter xdotool
+- sudo apt-get install -y chromium-browser unclutter xdotool cec-utils
 - wget nc.sh
 - sudo chmod +x nc.sh
 - sudo mkdir /home/nc-location1/.config/autostart && sudo nano /home/nc-location1/.config/autostart/nc.desktop
