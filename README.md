@@ -4,7 +4,7 @@ Standard hostname: NC-LOCATION1
 # To-Do :
 - HDMI (cec) script to turn screen on or off at certain times.
 - Refresh browserpage at certain times (F5) because of changes in CMS (if needed).
-- Automatic updates? https://github.com/IrisBroadcast/OphrysSignage/blob/master/storage/scripts/crontab-update-os.sh
+- Automatic updates? https://github.com/IrisBroadcast/OphrysSignage/blob/master/storage/scripts/crontab-update-os.sh , https://github.com/luke255/pi-kiosk-setup/blob/main/pi.sh#L112
 - Dual screen 
 - Auto reboot if chromium crashes
 - Installation script
