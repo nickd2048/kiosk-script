@@ -13,7 +13,7 @@ Standard hostname: NC-LOCATION1
 # Installation :
 - get github repo
 - sudo apt-get update && sudo apt-get upgrade -Y
-- Set sceen resolution to 1920x1080 and rotation
+- Set sceen resolution to 1920x1080 (xrandr --size 1920x1080) and rotation
 - gsettings get org.gnome.desktop.background picture-uri background.jpg
 - sudo crontab /home/nc/crontab.example
 - sudo apt-get install -y chromium-browser unclutter xdotool cec-utils openssh-server htop
