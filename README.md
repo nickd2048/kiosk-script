@@ -11,20 +11,20 @@ Standard hostname: NC-LOCATION1
 - Custom background or black screen when booting
 
 # Installation :
+- get github repo
 - Set sceen resolution to 1920x1080
 - Set hostname
 - Set networkconf
-- Set background
+- gsettings get org.gnome.desktop.background picture-uri background.jpg
 - sudo apt-get update && sudo apt-get upgrade -Y
-- sudo apt-get install -y chromium-browser unclutter xdotool cec-utils
-- wget nc.sh
+- sudo apt-get install -y chromium-browser unclutter xdotool cec-utils openssh-server
 - sudo chmod +x nc.sh
-- sudo mkdir /home/nc-location1/.config/autostart && sudo nano /home/nc-location1/.config/autostart/nc.desktop
+- sudo mkdir /home/nc/.config/autostart && sudo nano /home/nc/.config/autostart/nc.desktop
 ```
 [Desktop Entry]
 Type=Application
 Name=Kiosk
-Exec=/home/NC-LOCATION1/kiosk.sh
+Exec=/home/nc/nc.sh
 X-GNOME-Autostart-enabled=true
 ```
 
