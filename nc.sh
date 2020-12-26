@@ -15,7 +15,7 @@ BROWSER="/usr/bin/chromium-browser"
 TARGET="http://localhost/"
 
 # Run Chromium and open tabs
-$BROWSER $TARGET --window-size=1920,1080 --kiosk --incognito --window-position=0,0 --noerrdialogs --disable-session-crashed-bubble --disable-infobars --disable-pinch --no-first-run --disable-features=TranslateUI --ignore-certificate-errors &
+$BROWSER $TARGET --window-size=1920,1080 --kiosk --incognito --window-position=0,0 --noerrdialogs --disable-session-crashed-bubble --disable-infobars --disable-pinch --no-first-run --disable-features=TranslateUI --ignore-certificate-errors --check-for-update-interval=31536000 &
 
 # Anti-idle loop
 # #
