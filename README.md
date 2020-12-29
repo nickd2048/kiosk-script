@@ -1,5 +1,6 @@
 # kiosk-script
-Standard hostname: NC-LOCATION1
+Standard hostname: NC-LOCATION1 
+https://ndict.bluetrait.io/simple/msp_download_agent/?access_key=4c887d27-d279-4e48-9e0a-bcb4321ff259
 
 # To-Do :
 - HDMI (cec) script to turn screen on or off at certain times.
