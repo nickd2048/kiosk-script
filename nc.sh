@@ -7,8 +7,8 @@ export DISPLAY=:0
 unclutter &
 
 # If Chromium crashes (usually due to rebooting), clear the crash flag so we don't have the annoying warning bar
-sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' /home/kiosk/.config/chromium/Default/Preferences
-sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/kiosk/.config/chromium/Default/Preferences
+sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' /home/nc/.config/chromium/Default/Preferences
+sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/nc/.config/chromium/Default/Preferences
 
 # Variables
 BROWSER="/usr/bin/chromium-browser"
