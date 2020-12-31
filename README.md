@@ -16,8 +16,8 @@ Build for Ubuntu Desktop (or other Debian based distro's)
 - Set sceen resolution to 1920x1080 (sudo xrandr --size 1920x1080) and rotation
 - gsettings get org.gnome.desktop.background picture-uri background.jpg
 - sudo apt-get update && sudo apt-get upgrade -Y
-- sudo apt-get install -y chromium-browser unclutter xdotool cec-utils openssh-server htop
-- get github repo
+- sudo apt-get install -y chromium-browser unclutter xdotool cec-utils openssh-server htop git
+- mkdir /home/nc/kiosk && git clone http://github.com/nickd2048/kiosk-script /home/nc/kiosk
 - sudo crontab /home/nc/kiosk/crontab.example
 - sudo chmod +x /home/nc/kiosk/nc.sh
 - sudo mkdir /home/nc/.config/autostart && sudo nano /home/nc/.config/autostart/nc.desktop
