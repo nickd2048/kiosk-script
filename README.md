@@ -11,8 +11,9 @@ Build for Ubuntu Desktop (or other Debian based distro's)
 
 # Installation :
 - Install Ubuntu Desktop (https://ubuntu.com/download/desktop)
-- Username: nc
-- Hostname: NC-LOCATION1
+  - Username: nc
+  - Hostname: NC-LOCATION1
+  - set check for updates automaticly & notify new ubuntu version to never
 - Set sceen resolution to 1920x1080 (sudo xrandr --size 1920x1080) and rotation
 - gsettings get org.gnome.desktop.background picture-uri background.jpg
 - sudo apt-get update && sudo apt-get upgrade -Y
@@ -28,6 +29,9 @@ Name=Kiosk
 Exec=/home/nc/kiosk/nc.sh
 X-GNOME-Autostart-enabled=true
 ```
+
+# Troubleshooting :
+- sudo crontab -l (view all cron jobs for sudo user)
 
 # Stop kiosk mode :
 - ALT+F4
