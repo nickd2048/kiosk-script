@@ -1,7 +1,6 @@
 # kiosk-script
+Build for Ubuntu Desktop (or other Debian distro's)
 Standard hostname: NC-LOCATION1 
-https://ndict.bluetrait.io/simple/msp_download_agent/?access_key=4c887d27-d279-4e48-9e0a-bcb4321ff259
-https://eu.ninjarmm.com/agent/installer/e0134cb7-67cf-471e-94e1-947f63f85d69/ndictmainoffice-5.0.911-installer.deb
 
 # To-Do :
 - HDMI (cec) script to turn screen on or off at certain times.
