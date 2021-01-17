@@ -12,8 +12,9 @@ Build for Ubuntu Desktop (or other Debian based distro's)
 # Installation :
 - Install Ubuntu Desktop (https://ubuntu.com/download/desktop)
   - Username: nc
-  - Hostname: NC-LOCATION1
-  - set check for updates automaticly & notify new ubuntu version to never
+  - Hostname: NCLOCATION1
+  - set check for updates automaticly & notify new ubuntu version to never in software updater
+  - set do not disturb to on in settings
 - sudo apt-get update && sudo apt-get upgrade -y
 - sudo apt-get install -y chromium-browser unclutter xdotool cec-utils openssh-server htop git
 - mkdir /home/nc/kiosk && git clone http://github.com/nickd2048/kiosk-script /home/nc/kiosk
