@@ -14,7 +14,7 @@ Build for Ubuntu Desktop (or other Debian based distro's)
   - Username: nc
   - Hostname: NC-LOCATION1
   - set check for updates automaticly & notify new ubuntu version to never
-- sudo apt-get update && sudo apt-get upgrade -Y
+- sudo apt-get update && sudo apt-get upgrade -y
 - sudo apt-get install -y chromium-browser unclutter xdotool cec-utils openssh-server htop git
 - mkdir /home/nc/kiosk && git clone http://github.com/nickd2048/kiosk-script /home/nc/kiosk
 - Set sceen resolution to 1920x1080 (sudo xrandr --size 1920x1080) and rotation
