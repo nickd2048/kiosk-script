@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=KioskScript
+Exec=/home/nc/kiosk/nc.sh
+X-GNOME-Autostart-enabled=true
