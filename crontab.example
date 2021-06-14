@@ -2,11 +2,11 @@
 0 3 * * * sudo reboot
 
 # Example: Turn display on weekdays at 7 AM
-0 7 * * 1-5 ~/hdmi-pwr.sh off
+#0 7 * * 1-5 ~/hdmi-pwr.sh off
 
 # Example: Turn display off weekdays at 7 PM (and after the nightly reboot)
-0 19 * * 1-5 /home/nc/hdmi-pwr.sh on
-10 3 * * 1-5 /home/nc/hdmi-pwr.sh on
+#0 19 * * 1-5 /home/nc/hdmi-pwr.sh on
+#10 3 * * 1-5 /home/nc/hdmi-pwr.sh on
 
 # Example: Reload webpage every hour
 # 0 * * * * xdotool key ctrl+R
