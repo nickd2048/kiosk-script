@@ -30,7 +30,7 @@ Back to normal
 - gsettings set org.gnome.desktop.background picture-uri /home/nc/kiosk/nd-background-nc.jpg
 - sudo crontab /home/nc/kiosk/crontab.example
 - sudo chmod +x /home/nc/kiosk/nc.sh
-- mkdir /home/nc/.config/autostart && cp /home/nc.kiosk/nc.desktop /home/nc/.config/autostart/nc.desktop
+- mkdir /home/nc/.config/autostart && cp /home/nc/kiosk/nc.desktop /home/nc/.config/autostart/nc.desktop
 
 # Troubleshooting :
 - sudo crontab -l (view all cron jobs for sudo user)
