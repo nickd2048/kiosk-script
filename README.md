@@ -15,7 +15,7 @@ Build for Ubuntu Desktop (or other Debian based distro's)
   - set check for updates automaticly & notify new ubuntu version to never in software updater
   - set do not disturb to on in settings
 - sudo apt-get update && sudo apt-get upgrade -y
-- sudo apt-get install -y chromium-browser unclutter xdotool cec-utils openssh-server htop git
+- sudo apt-get install -y chromium-browser unclutter xdotool cec-utils x11vnc htop git 
 - reboot?
 - mkdir /home/nc/kiosk && git clone http://github.com/nickd2048/kiosk-script /home/nc/kiosk
 - Set screen related settings
@@ -34,6 +34,11 @@ Back to normal
 
 # Troubleshooting :
 - sudo crontab -l (view all cron jobs for sudo user)
+
+# Remote control :
+- Start SSH session
+- Enter: x11vnc
+- Open VNC client and connect to client
 
 # Stop kiosk mode :
 - ALT+F4
