@@ -1,13 +1,6 @@
 # kiosk-script
 Build for Ubuntu Desktop (or other Debian based distro's)
 
-# To-Do :
-- HDMI (cec) script to turn screen on or off at certain times.
-- Refresh browserpage at certain times (F5 crontab) because of changes in CMS (if needed).
-- Automatic updates https://github.com/IrisBroadcast/OphrysSignage/blob/master/storage/scripts/crontab-update-os.sh , https://github.com/luke255/pi-kiosk-setup/blob/main/pi.sh#L112
-- Auto reboot if chromium crashes (start as service?)
-- Installation script
-
 # Installation :
 Part 1: Manual
 - Install Ubuntu Desktop (https://ubuntu.com/download/desktop)
