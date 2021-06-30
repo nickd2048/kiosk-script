@@ -9,16 +9,13 @@ Build for Ubuntu Desktop (or other Debian based distro's)
 - Installation script
 
 # Installation :
+Part 1: Manual
 - Install Ubuntu Desktop (https://ubuntu.com/download/desktop)
   - Username: nc
   - Hostname: NCLOCATION1
   - set check for updates automaticly & notify new ubuntu version to never in software updater
   - set do not disturb to on in settings
-- sudo apt-get update && sudo apt-get upgrade -y
-- sudo apt-get install -y chromium-browser unclutter xdotool cec-utils x11vnc htop git 
-- reboot?
-- mkdir /home/nc/kiosk && git clone http://github.com/nickd2048/kiosk-script /home/nc/kiosk
-- Set screen related settings
+  - Set screen related settings
 ```
 sudo export DISPLAY=:0 (if configured via terminal)
 sudo xrandr --size 1920x1080
@@ -27,6 +24,10 @@ Portrait
 Back to normal
   - sudo xrandr -o normaal
 ```
+Part 2: Via SSH
+- sudo apt-get update && sudo apt-get upgrade -y
+- sudo apt-get install -y chromium-browser unclutter xdotool cec-utils x11vnc htop git 
+- mkdir /home/nc/kiosk && git clone http://github.com/nickd2048/kiosk-script /home/nc/kiosk
 - gsettings set org.gnome.desktop.background picture-uri /home/nc/kiosk/nd-background-nc.jpg
 - sudo crontab /home/nc/kiosk/crontab.example
 - sudo chmod +x /home/nc/kiosk/nc.sh
